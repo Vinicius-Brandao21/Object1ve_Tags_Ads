@@ -2,8 +2,9 @@
 import { getDados } from "./condicaoTag.js";
 let dadosUrl = getDados();
 
-
-
+if (dadosUrl == null) {
+    dadosUrl.adUnit = "Default"
+}
 
 (function loadGPT() {
     const script = document.createElement('script');
