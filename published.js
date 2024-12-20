@@ -1,9 +1,9 @@
 
-import { getDados } from "./condicaoTag.js";
+import { getDados } from "./condicaoTag";
 let dadosUrl = getDados();
 console.log('Principal')
 if (dadosUrl == null) {
-    dadosUrl.adUnit = "Default"
+    dadosUrl.adUnit = "Default";
 }
 
 (function loadGPT() {
