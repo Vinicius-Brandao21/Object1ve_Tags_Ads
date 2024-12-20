@@ -1,7 +1,7 @@
 
 import { getDados } from "./condicaoTag.js";
 let dadosUrl = getDados();
-
+console.log('Principal')
 if (dadosUrl == null) {
     dadosUrl.adUnit = "Default"
 }

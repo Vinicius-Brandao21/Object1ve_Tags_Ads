@@ -5,6 +5,7 @@ export function getDados() {
         { url: "https://conexaoplaneta.com.br/", adUnit: "/7542/parceiros/ConexaoPlaneta" }
     ];
 
+    console.log('Rodando Get Dados');
     const propsUrlOBJ = Object.fromEntries(propsUrl.map(propsUrl => [propsUrl.url, propsUrl]));
 
     const UrlProcurada = "https://muramasa.com.br/"; //Usar o "Window.location.hostname" como url procurada dinamica
